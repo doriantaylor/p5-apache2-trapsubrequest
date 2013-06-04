@@ -1,7 +1,7 @@
 use strict;
 use inc::Module::Install;
 
-name     'Apache2-CondProxy';
+name     'Apache2-TrapSubRequest';
 abstract 'Trap the result of a subrequest into a scalar.';
 all_from 'lib/Apache2/TrapSubRequest.pm';
 author   q{Dorian Taylor <dorian@cpan.org>};
